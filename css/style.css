@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  /* position: relative; */
+  color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+.top-hero {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  z-index: 0;
+}
+.top-hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+}
+nav {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.navbar-toggler {
+  font-size: 3rem;
+}
+.navbar-brand {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: none;
+}
+header {
+  font-size: 2rem;
+}
+.carousel-item {
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+.carousel-img-one {
+  background-image: url("../img/main-carousel-1.jpg");
+}
+.carousel-img-two {
+  background-image: url("../img/main-carousel-2.jpg");
+}
+.carousel-img-three {
+  background-image: url("../img/main-carousel-3.jpg");
+}
+
+.boxes {
+  margin: 5em 0;
+}
+.boxes i {
+  font-size: 3.8rem;
+}
+h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding-bottom: 1.6rem;
+}
+p {
+  font-size: 1.6rem;
+}
+
+.hero-img {
+  position: relative;
+  height: 30rem;
+  background-image: url("../img/sunset.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.frostcustoms {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+/* about us */
+.aboutus-hero {
+  background-image: url("../img/about/about-hero.jpg");
+
+  background-position: bottom;
+}
+
+/* passion&goals */
+.about-boxes {
+  background-color: rgb(248, 248, 248);
+}
+.about-boxes .container {
+  padding: 2em 0.5em;
+}
+.bordertop {
+  border-top: 1px solid #ccc;
+  box-shadow: none;
+}
+.about_passion {
+  padding: 10px;
+}
+.about_passion h3,
+.about-goals h3 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline #007bff;
+}
+.about-photo {
+  height: 300px;
+  background-size: cover;
+}
+.about-goals {
+  padding: 10px;
+  text-align: right;
+}
+
+.services-hero {
+  background-image: url("../img/services/hero-services.jpg");
+
+  background-position: 0 75%;
+}
+.mechanical-tuning,
+.visual-tuning,
+.car-audio,
+.all-in-one {
+  position: relative;
+  height: 30rem;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.mechanical-tuning {
+  background-image: url("../img/services/engine.jpg");
+}
+.visual-tuning {
+  background-image: url("../img/services/visual.jpg");
+}
+.car-audio {
+  background-image: url("../img/services/car-audio.jpg");
+}
+.all-in-one {
+  background-image: url("../img/services/allinone.jpg");
+}
+.mechanical-tuning p,
+.visual-tuning p,
+.car-audio p,
+.all-in-one p {
+  position: relative;
+  top: calc(50% - 1.5rem);
+  font-size: 3rem;
+  z-index: 2;
+}
+.projects-hero {
+  background-image: url("../img/projects/project-hero.jpg");
+  background-position: center;
+}
+.projects img {
+  height: 240px;
+  object-fit: cover;
+}
+.projects .btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.contact-hero {
+  background-image: url("../img/contact/contact-hero.jpg");
+  background-position: 0 40%;
+}
+.contact h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+.contact-logo {
+  font-size: 3rem;
+}
+.contact input,
+.contact select,
+.conatact textarea {
+  font-size: 1.6rem;
+}
+.contact .btn {
+  padding: 0.3em 0.8em;
+  font-size: 2rem;
+}
+.contact-map iframe {
+  width: 100%;
+  min-height: 400px;
+}
+
+@media (min-width: 992px) {
+  .about-boxes .container {
+    padding: 0;
+  }
+  .about_passion,
+  .about-goals {
+    padding: 5em 0;
+    transform: skew(-15deg);
+  }
+  .about_passion {
+    text-align: right;
+    margin-right: 2em;
+  }
+  .about-goals {
+    text-align: left;
+    margin-left: 2em;
+  }
+  .about-photo {
+    height: auto;
+    transform: skew(-15deg);
+  }
+  .bordertop {
+    border-top: 0;
+    box-shadow: inset 0 8px 8px -8px rgb(66, 66, 66);
+  }
+}
+@media (min-width: 1400px) {
+  .carousel-item {
+    height: 600px;
+  }
+  .carousel-img-one {
+    background-image: url("../img/main-carousel-1-hq.jpg");
+  }
+  .carousel-img-two {
+    background-image: url("../img/main-carousel-2-hq.jpg");
+  }
+  .carousel-img-three {
+    background-image: url("../img/main-carousel-3-hq.jpg");
+  }
+
+  .hero-img {
+    height: 40rem;
+    background-image: url("../img/sunset-hq.jpg");
+  }
+}
