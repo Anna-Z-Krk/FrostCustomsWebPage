@@ -2,7 +2,7 @@ FROST CUSTOMS - example of web page with subpages*
 
 
 You can view it here:
-https://anna-z-krk.github.io/frostcustoms/
+https://anna-z-krk.github.io/FrostCustomsWebPage/
 
 
 AIM OF THE PROJECT:
