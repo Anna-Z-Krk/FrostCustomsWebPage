@@ -1,6 +1,7 @@
 # FROST CUSTOMS 
 ## example of web page with subpages
 
+![Preview:] (https://github.com/Anna-Z-Krk/FrostCustomsWebPage/blob/main/frost_customs_prev.png)
 
 You can view it here:
 https://anna-z-krk.github.io/FrostCustomsWebPage/
