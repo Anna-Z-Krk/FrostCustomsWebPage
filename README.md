@@ -1,5 +1,5 @@
 # FROST CUSTOMS 
-## example of web page with subpages
+## Web page with subpages
 
 ![Preview:](https://github.com/Anna-Z-Krk/FrostCustomsWebPage/blob/main/frost_customs_prev.png)
 
