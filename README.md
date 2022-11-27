@@ -17,7 +17,7 @@ AIM OF THE PROJECT:
 USED IN THIS PROJECT:
 - Visual Studio Code with boostrap plugin to make it faster
 - Boostrap library
-- HTML5, CSS#, JS
+- HTML5, CSS3, JS
 
 
 
